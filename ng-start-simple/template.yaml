@@ -1,0 +1,9 @@
+name: ng-start-simple
+description: Novo projeto angular básico
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
