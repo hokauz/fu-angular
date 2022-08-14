@@ -7,3 +7,9 @@ inputs:
     type: text
     name: project_name
     default: project-name
+
+hooks: 
+  - type: run
+    trigger: before-render
+    commands: 
+     'npx @angular/cli ng create app'

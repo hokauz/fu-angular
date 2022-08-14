@@ -1,16 +1,15 @@
 description: Templates e plugins para projetos angular SPA ou MFE que são facilitadores de desenvolvimento. Aqui vc encontra boilerplates para implementação
  de autênticação, observabilidade, qualidade de código, testes unitários e e2e e mais.
 name: fu-angular
-display-name: fu-angular
+display-name: Angular
 picture: stack.png
-category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
+category: frontend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
-  - java
-  - spring
+  - angular
 technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies 
-  - docker 
+  - typescript
 about: docs/about.md
 use-cases:
-  - title: Use Case Title
+  - title: Casos de uso
     content: docs/use-case.md
     stackfile: stackfiles/default.yaml
